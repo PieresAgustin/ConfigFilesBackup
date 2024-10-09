@@ -25,3 +25,8 @@
 
 ##### Oh My Zsh folder:
 * /home/agustin/.oh-my-zsh
+
+##### Eza (ls alternative) theme:
+> To use this theme add this line in .zshrc:
+>> export EZA_CONFIG_DIR=/home/agustin/.config/ezathemes/dracula.yml
+* /home/agustin/.config/ezathemes
