@@ -44,7 +44,7 @@ zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -113,6 +113,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias nvim="sudo nvim"
 #alias "sudoedit"="function _sudoedit(){sudo -e "$1";};_sudoedit"
+alias aptupdate='sudo apt update && sudo apt upgrade'
+
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
 # export SUDO_EDITOR="nvim"
