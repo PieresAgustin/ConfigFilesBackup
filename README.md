@@ -20,7 +20,7 @@
 ##### Fastfetch:
 * /home/agustin/.config/.fastfetch.jsonc
 
-##### Fastfetch folser:
+##### Fastfetch folder:
 * /home/agustin/fastfetch
 
 ##### Oh My Zsh folder:
